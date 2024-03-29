@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <div className="w-full bg-[#101010] pl-[34px] pr-4 py-[7px] flex  items-center justify-between">
       <div className="flex gap-3 items-center">
-        <div className='bg-[#090909] w-[29px] flex justify-center items-center h-[29px] rounded-full '>
+        <div className='bg-[#090909] w-[29px] cursor-pointer flex justify-center items-center h-[29px] rounded-full '>
           <img src={Left} alt="left" />
         </div>
-        <div className='bg-[#090909] w-[29px] flex justify-center items-center h-[29px] rounded-full '>
+        <div className='bg-[#090909] w-[29px] cursor-pointer flex justify-center items-center h-[29px] rounded-full '>
           <img src={Right} alt="right" />
         </div>
       </div>
