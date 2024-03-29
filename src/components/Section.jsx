@@ -12,7 +12,7 @@ const Section = ({name,data}) => {
           <div key={datum.id} className="flex flex-col w-[188px] rounded-[10px] h-[277px]  bg-[#171717] px-[14px] pt-[13px] pb-[16px] ">
             <img src={datum.img} alt="" className='rounded-[10px] mb-[21px]' />
             <h5 className='text-[#FAFAFA] font-semibold text-sm mb-1'>{datum.name}</h5>
-            <span className='text-[#B8B8B8] text-xs font-medium max-w-[160px]'>{datum.desc}</span>
+            <span className='text-[#B8B8B8] text-xs font-medium max-w-[162px]'>{datum.desc}</span>
           </div>
 
           ))
