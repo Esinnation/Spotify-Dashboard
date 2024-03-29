@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* background-color: #101010; */
+}
+
+.black-gradient{
+  background: linear-gradient(180deg, #1E1E1E 13.01%, #111111 100%);
+
+}
+.purple-gradient{
+  background: linear-gradient(90deg, #A13492 0%, #6B8AE1 100%);
+
+}
+.no-scrollbar{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
